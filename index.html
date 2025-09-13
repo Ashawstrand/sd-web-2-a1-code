@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Removed unnecessary closing slashes-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Web 2 Assignment 1</title>
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+   <!--Fixed missing body tag-->
+  <body>
+    <!--Eliminated unnecessary div-->
+    <!--Made a semantic header tag instead of a div-->
+    <header>
+      <!--Fixed missing closing bracket on <h1> tag-->
+      <h1> SAIT Software Developer Program Web 2 Assignment 1</h1>
+      <p>
+        Complete the JavaScript exercises below. Check the console for output
+        and fill in the results on this page.
+      </p>
+    </header>
+   
+    <main>
+      <!--Eliminated unnecessary extra div-->
+      <section id="exercise-1">
+        <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 1: Print Character Names</h2>
+        <p>Print out the names of each character in the console.</p>
+        <div class="output">
+          <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="names-list">
+            <!-- Character names will be populated here -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="exercise-2">
+        <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 2: Filter by Age</h2>
+        <p>Print out the names of characters whose age is less than 40.</p>
+        <div class="output">
+            <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="young-characters-list">
+            <!-- Filtered character names will be populated here -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="exercise-3">
+        <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 3: Reusable Function for Lists</h2>
+        <p>
+          Create a function that takes any array and renders a list of character
+          names on the page.
+        </p>
+        <div class="output">
+          <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="function-list">
+            <!-- Function-generated list will be populated here -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="exercise-4">
+        <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 4: Age Filter Function</h2>
+        <p>
+          Create a function that takes an array and an age threshold, then
+          displays characters below that age.
+        </p>
+        <div class="output">
+          <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="age-filter-list">
+            <!-- Age-filtered results will be populated here -->
+          </ul>
+        </div>
+      </section>
+
+      <section id="exercise-5">
+        <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 5: Error Handling</h2>
+        <p>Add error handling to check if objects have a "name" property.</p>
+        <div class="output">
+           <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="error-handling-list">
+            <!-- Error-handled results will be populated here -->
+          </ul>
+          <div id="error-messages">
+            <!-- Error messages will be displayed here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="exercise-6">
+         <!--Changed h1 to h2 to ensure h1 remains a top-level heading-->
+        <h2>Exercise 6: Test Error Handling</h2>
+        <p>Test your error handling by using a broken array.</p>
+        <div class="output">
+          <!--Changed h1 to h3 for third level heading for output-->
+          <h3>Results:</h3>
+          <ul id="broken-array-list">
+            <!-- Broken array test results will be populated here -->
+          </ul>
+          <div id="broken-array-errors">
+            <!-- Error messages from broken array will be displayed here -->
+          </div>
+        </div>
+      </section>
+   </main>
+    <!--Moved script tag to bottom to ensure DOM is loaded before js runs-->
+  <script src="index.js"></script>
+  </body>
+</html>
