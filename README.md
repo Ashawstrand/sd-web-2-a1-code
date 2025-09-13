@@ -17,8 +17,8 @@ This is a summary of the main tasks you need to complete.
   - [ ] Create a folder for static assets (e.g., `public/` or `assets/`)
   - [ ] Add your Node.js screenshot to the asset folder.
   - [ ] Fix all bugs in the HTML, CSS, and JavaScript files.
-  - [ ] Move any existing images into your new asset folder.
-  - [ ] Fill out the "Git Terminology Definitions" section in this README.
+  - [ ] Move any existing images into your new asset folder. **What images??**
+  - [ ] Fill out the "Git Terminology Definitions" section in this README. **What Terminology Section??**
 - [ ] **Part 3: Submission**
   - [ ] Make at least two meaningful Git commits and push them to GitHub.
   - [ ] Deploy your fixed website using GitHub Pages.
